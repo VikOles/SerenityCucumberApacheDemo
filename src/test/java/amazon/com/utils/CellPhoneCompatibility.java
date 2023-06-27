@@ -1,4 +1,4 @@
-package apache.com.utils;
+package amazon.com.utils;
 
 public enum CellPhoneCompatibility {
     APPLE_IPHONE("Apple iPhone"),

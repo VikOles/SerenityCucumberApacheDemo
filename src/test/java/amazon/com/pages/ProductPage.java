@@ -1,4 +1,4 @@
-package apache.com.pages;
+package amazon.com.pages;
 
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;

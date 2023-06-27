@@ -1,9 +1,9 @@
-package apache.com.steps;
+package amazon.com.steps;
 
-import apache.com.pages.NavigationBar;
-import apache.com.pages.ProductPage;
-import apache.com.pages.SearchPage;
-import apache.com.utils.CellPhoneCompatibility;
+import amazon.com.pages.NavigationBar;
+import amazon.com.pages.ProductPage;
+import amazon.com.pages.SearchPage;
+import amazon.com.utils.CellPhoneCompatibility;
 import io.cucumber.java.ParameterType;
 import io.cucumber.java.en.And;
 import net.serenitybdd.core.annotations.findby.FindBy;
@@ -39,7 +39,7 @@ public class SearchStepDefinitions extends PageObject {
 
     @Given("open page")
     public void invokeApp() {
-        navigationBar.invoke();
+        navigationBar.launchApplication();
     }
 
     @Given("search for {string}")
