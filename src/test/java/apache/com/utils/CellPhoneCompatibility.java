@@ -1,4 +1,4 @@
-package apache.org.utils;
+package apache.com.utils;
 
 public enum CellPhoneCompatibility {
     APPLE_IPHONE("Apple iPhone"),

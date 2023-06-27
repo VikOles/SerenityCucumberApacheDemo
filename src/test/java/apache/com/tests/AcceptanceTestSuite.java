@@ -1,4 +1,4 @@
-package apache.org.tests;
+package apache.com.tests;
 
 import io.cucumber.junit.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
@@ -8,6 +8,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"pretty"},
         features = "src/test/resources/features/",
-        glue = "apache.org")
+        glue = "apache.com")
 public class AcceptanceTestSuite {
 }

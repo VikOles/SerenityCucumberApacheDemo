@@ -1,9 +1,9 @@
-package apache.org.steps;
+package apache.com.steps;
 
-import apache.org.pages.NavigationBar;
-import apache.org.pages.ProductPage;
-import apache.org.pages.SearchPage;
-import apache.org.utils.CellPhoneCompatibility;
+import apache.com.pages.NavigationBar;
+import apache.com.pages.ProductPage;
+import apache.com.pages.SearchPage;
+import apache.com.utils.CellPhoneCompatibility;
 import io.cucumber.java.ParameterType;
 import io.cucumber.java.en.And;
 import net.serenitybdd.core.annotations.findby.FindBy;
@@ -17,8 +17,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 
 import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.interactions.Actions;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package apache.org.pages;
+package apache.com.pages;
 
-import apache.org.utils.CellPhoneCompatibility;
+import apache.com.utils.CellPhoneCompatibility;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
 import org.openqa.selenium.By;
